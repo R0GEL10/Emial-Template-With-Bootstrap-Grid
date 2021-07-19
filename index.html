@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet " href="style.css">
+    < <title>Email Template With Bootstrap Grid</title>
+</head>
+
+<body>
+
+    <!-- container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!--Left side grid-->
+            <div id="inbox-grid" class="col-1 col-md-1 flex-column">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                    <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  </svg>
+                <h6 class="brock"> Welcome, Brock!</h6>
+                <button id="comp-button" type="button" class="btn btn-warning">COMPOSE</button>
+
+
+                <ul id="inbox-text">
+                    <li class="ibox-items">Inbox(1)</li>
+                    <li class="ibox-items">Tagged</li>
+                    <li class="ibox-items">Important</li>
+                    <li class="ibox-items">Sent Mail</li>
+                    <li class="ibox-items">Drafts</li>
+                    <li class="ibox-items">Trash</li>
+
+                </ul>
+            </div>
+
+            <!--Middle Grid-->
+
+            <div id="email-search-grid" class="col-3 col-md-2 flex-wrap">
+                <br>
+                <br>
+                <!--Search Bar-->
+                <input class="input" type="text" id="search" placeholder="Search for emails">
+                <br>
+                <br>
+
+                <div class="card">
+                    <span class="date-time">02:45pm</span>
+                    <h6 class="email-from" class="email-sent-by"><b>LinkedIn</b></h6>
+                    <p class="email-sent-by">You have a new connection request.</p>
+                </div>
+
+                <div class="card">
+                    <span class="date-time">Jul 3, 2020</span>
+                    <h6 id="email-from" class="email-sent-by"><b>Michael Scott Daily Quotes</b></h6>
+                    <p class="email-sent-by">I'm optimistic because everyday I get a little more desp....</p>
+                </div>
+                <div class="card">
+                    <span class="date-time">Feb 9, 2020</span>
+                    <h6 id="email-from" class=email-sent-by><b>LaMar Software.</b></h6>
+                    <p class="email-sent-by">Learn how you can give us money by calling (209 322 7...</p>
+                </div>
+            </div>
+
+
+            <div id=" display-grid" class="col-8 col-md-8 d-flex-wrap ">
+                <p class="to-from">To: taylor@lamarsoftware.io</p>
+                <i class="fa-solid fa-trash"></i>
+                <p class="to-from ">From: re-reply@theofficenbc.com</p>
+                <h1 class="daily-quotes ">Michael Scott Daily Quotes</h1>
+                <p><q>Friends joke with one another. 'Hey, you're poor.''Hey, your mommoa's dead.' That's what friends do.</q></p>
+                <p><q>It's a good thing Russia doesn't exist anymmore.</q></p>
+                <p><q>It just seems awfully mean. But sometimes, the ends justify the mean.</q></p>
+                <p><q>Reverse psychology is an awesome tool. I don't know if you guys know about it, but, basically, you make someone think the opposite of what you beleive, and trick them into doing something stupid. works like a charm. </q></p>
+
+
+
+
+                <form>
+                    <div class="email-text-box">
+
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
+
+
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- <button type="button " class="btn btn-lg btn-danger " data-bs-toggle="popover " title="Popover title " data-bs-content="And here 's some amazing content. It's very engaging. Right? ">Click to toggle popover</button> -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+</body>
+
+</html>

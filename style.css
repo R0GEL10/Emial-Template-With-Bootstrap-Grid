@@ -1,0 +1,116 @@
+    html,
+    body {
+        margin: 0;
+        display: flex;
+    }
+    
+    .container-fluid {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .col-md-1 {
+        background-color: rgba(68, 48, 34, 0.931);
+        height: 100vh;
+        color: white;
+        /* padding: 1em; */
+    }
+    
+    .col-md-2 {
+        background-color: rgb(233, 222, 214);
+        height: 100vh;
+    }
+    
+    .col-md-6 {
+        background-color: rgb(241, 236, 233);
+        opacity: 0.5;
+        height: 100vh;
+    }
+    
+    .card {
+        color: black;
+        font-size: 11px;
+        background-color: rgb(233, 222, 214);
+        margin-bottom: 4em;
+        border-style: none;
+    }
+    
+    .card:hover {
+        color: rgb(0, 0, 0);
+        -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.5);
+        background-color: white;
+    }
+    
+    #display-grid {
+        display: flex;
+    }
+    
+    #inbox-text {
+        list-style-type: none;
+        margin-top: 3em;
+    }
+    
+    #comp-button {
+        width: 175px;
+    }
+    
+    .brock {
+        padding-bottom: 2em;
+    }
+    
+    .ibox-items {
+        margin-bottom: 2em;
+    }
+    
+    .date-time {
+        justify-content: right;
+        align-self: flex-end;
+        margin-block-start: inherit;
+        padding-right: 30px;
+    }
+    
+    #inbox-grid {
+        align-items: inherit;
+    }
+    
+    .email-sent-by {
+        /* justify-content: baseline; */
+        padding-left: 30px;
+        opacity: 0.5;
+    }
+    
+    .date-time {
+        opacity: 0.5;
+    }
+    
+    .to-from {
+        font-size: 15px;
+        /* margin-top: 2em; */
+        padding: 10px;
+        margin-bottom: -20px;
+    }
+    
+    .daily-quotes {
+        padding-top: 40px;
+        padding-bottom: 1.5em;
+    }
+    
+    .input {
+        border-style: none;
+        width: 400px;
+        border-radius: .3em;
+    }
+    
+    .email-search-grid {
+        padding-block: 3em;
+    }
+    
+    .email-text-box {
+        padding-top: 10em;
+    }
+    
+    #email-from {
+        color: black;
+        font-weight: bold;
+    }
