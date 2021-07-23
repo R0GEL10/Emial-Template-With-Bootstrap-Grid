@@ -1,122 +1,159 @@
-    html,
-    body {
-        margin: 0;
-        display: flex;
-    }
-    
-    .container-fluid {
-        width: 100vw;
-        height: 100vh;
-    }
-    
-    .col-md-1 {
-        background-color: rgba(68, 48, 34, 0.931);
-        height: 100vh;
-        color: white;
-    }
-    
-    .col-md-3 {
-        background-color: rgb(233, 222, 214);
-        height: 100vh;
-    }
-    
-    .col-md-8 {
-        background-color: rgb(241, 236, 233);
-        opacity: 0.5;
-        height: 100vh;
-    }
-    
-    .card {
-        color: black;
-        font-size: 11px;
-        background-color: rgb(233, 222, 214);
-        margin-bottom: 4em;
-        border-style: none;
-    }
-    
-    .card:hover {
-        color: rgb(0, 0, 0);
-        -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.5);
-        background-color: white;
-    }
-    
-    #inbox-text {
-        list-style-type: none;
-        margin-top: 3em;
-    }
-    
-    #comp-button {
-        width: 175px;
-    }
-    
-    .brock {
-        padding-bottom: 2em;
-    }
-    
-    .ibox-items {
-        margin-bottom: 2em;
-    }
-    
-    .date-time {
-        float: right;
-    }
-    
-    .email-sent-by {
-        opacity: 0.5;
-    }
-    
-    .date-time {
-        opacity: 0.5;
-    }
-    
-    .to-from {
-        font-size: 12px;
-        padding-top: 20px;
-        margin-bottom: -20px;
-        font-weight: bold;
-    }
-    
-    .daily-quotes {
-        padding-top: 40px;
-        padding-bottom: 1em;
-    }
-    
-    .input {
-        border-style: none;
-        width: 400px;
-        border-radius: .3em;
-    }
-    
-    .email-search-grid {
-        padding-block: 3em;
-    }
-    
-    .email-text-box {
-        padding-top: 10em;
-    }
-    
-    #email-from {
-        color: black;
-        font-weight: bold;
-    }
-    
-    textarea {
-        border: none;
-    }
-    
-    button {
-        background: transparent;
-        border: none;
-        /* Makes paperclip transparent and removes border */
-    }
-    
-    #search {
-        width: 550px;
-    }
-    
-    #trash-reply-btn {
-        float: right !important;
-        padding-right: 250px;
-        padding-top: 55px;
-    }
+        html,
+        body {
+            margin: 0;
+            display: flex;
+        }
+        
+        .container-fluid {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .col-md-1 {
+            background-color: rgba(58, 52, 47, 0.931);
+            height: 100vh;
+            color: white;
+        }
+        
+        .col-md-3 {
+            background-color: rgb(238, 232, 228);
+            height: 100vh;
+        }
+        
+        .col-md-8 {
+            background-color: rgb(243, 240, 237);
+            height: 100vh;
+        }
+        /* --- */
+        
+        #inbox-grid i {
+            font-size: 18px;
+        }
+        
+        .card {
+            color: black;
+            font-size: 11px;
+            background-color: rgb(238, 232, 228);
+            margin-bottom: 3em;
+            border-style: none;
+        }
+        
+        .card:hover {
+            color: rgb(0, 0, 0);
+            -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.5);
+            background-color: white;
+        }
+        
+        #basic-addon1 {
+            border-radius: .3em;
+            background-color: white;
+            border-style: none;
+        }
+        
+        #inbox-text {
+            list-style-type: none;
+            margin-top: 3em;
+        }
+        
+        #comp-button {
+            width: 175px;
+        }
+        
+        .brock {
+            padding-bottom: 2em;
+        }
+        
+        .ibox-items {
+            margin-bottom: 2em;
+        }
+        
+        .date-time {
+            float: right;
+        }
+        
+        .email-sent-by {
+            opacity: 0.5;
+        }
+        
+        .date-time {
+            opacity: 0.5;
+        }
+        
+        .to-from {
+            font-size: 12px;
+            padding-top: 20px;
+            margin-bottom: -20px;
+            font-weight: bold;
+        }
+        
+        .daily-quotes {
+            padding-top: 40px;
+            padding-bottom: 1em;
+        }
+        
+        .input {
+            border-style: none;
+            width: 400px;
+            border-radius: .3em;
+        }
+        
+        .email-search-grid {
+            padding-block: 3em;
+        }
+        
+        .email-text-box {
+            padding-top: 10em;
+        }
+        
+        #email-from {
+            color: black;
+            font-weight: bold;
+        }
+        
+        #text-area {
+            border: none;
+            padding-top: 8em;
+        }
+        
+        button {
+            background: transparent;
+            border: none;
+            /* Makes paperclip transparent and removes border */
+        }
+        
+        #trash-reply-btn {
+            float: right !important;
+            padding-right: 250px;
+            padding-top: 55px;
+        }
+        
+        .search-input {
+            border-right: 0;
+        }
+        
+        .input-group-addon {
+            background: white;
+            border-left: 0;
+            border-right: 0;
+        }
+        
+        .input-group-addon:last-child {
+            border-left: 0;
+            border-right: 1px solid #ccc;
+        }
+        
+        .input-group button {
+            opacity: 0.5;
+        }
+        
+        .text-area {
+            background: white;
+            border: solid 2px rgb(218, 212, 212);
+            border-radius: 2px;
+            margin: 7em 3em 4em .5em;
+        }
+        
+        textarea {
+            border: none !important;
+        }

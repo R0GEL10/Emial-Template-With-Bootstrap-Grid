@@ -15,28 +15,27 @@
 <body>
 
 
-    <!-- container -->
+    <!-- Container -->
     <div class="container-fluid">
         <div class="row">
-
             <!--Left side grid-->
             <div id="inbox-grid" class=" col-sm-1 col-md-1 d-flex flex-column">
                 <i class="fas fa-headphones-alt mt-4"> <span >Welcome, Brock!</span></i>
 
-
-
                 <button id="comp-button" type="button" class="btn btn-warning mt-5">COMPOSE</button>
 
+                <div class="d-flex">
+                    <ul id="inbox-text">
 
-                <ul id="inbox-text">
-                    <li class="ibox-items">Inbox(1)</li>
-                    <li class="ibox-items">Tagged</li>
-                    <li class="ibox-items">Important</li>
-                    <li class="ibox-items">Sent Mail</li>
-                    <li class="ibox-items">Drafts</li>
-                    <li class="ibox-items">Trash</li>
+                        <li class="ibox-items">Inbox(1)</li>
+                        <li class="ibox-items">Tagged</li>
+                        <li class="ibox-items">Important</li>
+                        <li class="ibox-items">Sent Mail</li>
+                        <li class="ibox-items">Drafts</li>
+                        <li class="ibox-items">Trash</li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
 
             <!--Middle Grid-->
@@ -45,33 +44,35 @@
                 <br>
                 <br>
 
-                <!--Search Bar-->
-                <button type="submit"><i class="fa fa-search" ></i></button>
-                <input input type="email" id="search" placeholder="Search for emails">
+                <div class="input-group mb-4">
+                    <span class="input-group-text" id="basic-addon1"><button type="submit"><i class="fa fa-search" ></i></button></span>
+                    <input type="text" class="form-control" placeholder="Search emails" aria-label="Username" aria-describedby="basic-addon1" id="basic-addon1">
+                </div>
+
 
                 <br>
                 <br>
 
                 <div class="card">
                     <div class="card-body">
-                        <span class="date-time">02:45pm</span>
-                        <h6 id="email-from" class="email-sent-by"><b>LinkedIn</b></h6>
-                        <p class="email-sent-by">You have a new connection request.</p>
+                        <span class="date-time"><b>02:45pm</b></span>
+                        <h6 id="email-from">LinkedIn</h6>
+                        <p class="email-sent-by"><b>You have a new connection request.</b></p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="card-body">
-                        <span class="date-time">Jul 3, 2020</span>
-                        <h6 id="email-from" class="email-sent-by"><b>Michael Scott Daily Quotes</b></h6>
-                        <p class="email-sent-by">I'm optimistic because everyday I get a little more desp....</p>
+                        <span class="date-time"><b>Jul 3, 2020</b></span>
+                        <h6 id="email-from">Michael Scott Daily Quotes</h6>
+                        <p class="email-sent-by"><b>I'm optimistic because everyday I get a little more desp....</b></p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <span class="date-time">Feb 9, 2020</span>
-                        <h6 id="email-from" class=email-sent-by><b>LaMar Software.</b></h6>
-                        <p class="email-sent-by">Learn how you can give us money by calling (209 322 7...</p>
+                        <span class="date-time"><b>Feb 9, 2020</b></span>
+                        <h6 id="email-from">LaMar Software.</h6>
+                        <p class="email-sent-by"><b>Learn how you can give us money by calling (209 322 7...</b></p>
                     </div>
                 </div>
 
@@ -103,28 +104,29 @@
 
 
 
-                    <div class="email-text-box">
 
 
-                        <textarea name="message" class="form-control shadow none" id="exampleFormControlTextarea1" rows="12"></textarea>
+                    <div class="text-area">
+                        <textarea name="message" class="form-control shadow none" rows="10"> </textarea>
                         <div class="d-flex justify-content-between">
-                            <button type="submit"><i class="fas fa-paperclip fa-lg p-2 text-muted"></i></button>
-                            <button type="button" class="btn btn-outline-secondary m-2 small-screen ">Reply</button>
-
-
-
+                            <button type="submit"><i class="fas fa-paperclip fa-lg p-2 text-muted" id ="ppclip " ></i></button>
+                            <button type="button " class="btn btn-outline-secondary m-2 small-screen" id="reply">Reply</button>
                         </div>
-
-
                     </div>
+
 
             </div>
 
 
+        </div>
+
+    </div>
 
 
-            <!-- Option 1: Bootstrap Bundle with Popper -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
 </body>
 
 </html>
