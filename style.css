@@ -56,8 +56,15 @@
             margin-top: 3em;
         }
         
-        #comp-button {
-            width: 175px;
+        .comp-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .comp-button button {
+            color: white !important;
+            font-weight: bold !important;
         }
         
         .brock {
@@ -156,4 +163,11 @@
         
         textarea {
             border: none !important;
+        }
+        
+        li a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
         }
